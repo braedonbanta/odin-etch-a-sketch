@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 600px;
+    padding: none;
+    margin: none;
+    gap: none;
+    column-gap: none;
+    border: solid black 3px;
+}
+
+.square {
+    margin: none;
+    padding: none;
+}
+
+.reset {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: lightskyblue;
+    height:40px;
+    width:100px;
+}
